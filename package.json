@@ -1,6 +1,7 @@
 {
-  "name": "router-api-react-app-v5",
+  "name": "react-makeup-shop",
   "version": "0.1.0",
+  "homepage": "https://Luayabbas1981.github.io/react-makeup-shop",
   "private": true,
   "dependencies": {
     "bootstrap": "^5.2.0",
