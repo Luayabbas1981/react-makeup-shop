@@ -42,3 +42,9 @@ main {
   background-color: rgb(171, 94, 243);
  
 }
+.card-title{
+  font-size: 1vw;
+}
+.card-text{
+  font-size: 1.3vw;
+}

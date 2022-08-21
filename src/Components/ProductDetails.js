@@ -34,7 +34,7 @@ function ProductDetails() {
         <div className="product">
           <Card
             className="product-card"
-            style={{ width: "18rem", height: "30rem" }}
+            style={{ width: "16rem", height: "25rem" }}
           >
             <Card.Img
               className="card-photo"
