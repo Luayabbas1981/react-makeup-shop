@@ -5,8 +5,9 @@ main {
 .product-description {
   width: 90%;
   height:130px;
-  padding-top: 8vh;
-  margin: auto auto;
+  padding-top: 10vh;
+  
+  margin: 2vh auto;
   font-size: 1.2vw;
   color: rgb(219, 63, 247);
 }
@@ -27,7 +28,7 @@ main {
 
 .card {
   width: 25%;
-  padding-bottom: 4vh;
+  padding-bottom: 2vh;
 }
 .spinner {
   color: #f13ee5 !important;
