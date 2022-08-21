@@ -3,11 +3,11 @@ main {
 }
 
 .product-description {
-  width: 90%;
+  width: 95%;
   height:130px;
   padding-top: 10vh;
   
-  margin: 2vh auto;
+  margin: 6vh auto;
   font-size: 1.2vw;
   color: rgb(219, 63, 247);
 }
