@@ -1,0 +1,78 @@
+.Products {
+  padding: 10vh 0;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 2rem;
+  justify-content: center;
+}
+
+.link {
+  text-decoration: none;
+}
+.card {
+  border-bottom-left-radius: 3.5rem;
+  border-bottom-right-radius: 3.5rem;
+  box-shadow: 2px 2px 10px #f6c7f3;
+  background-color: #fdeeee;
+}
+.card-body {
+  padding-bottom: 2vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.card-title {
+  color: #d24bfb;
+}
+.card-text {
+  font-size: x-large;
+  color: #ca29f3;
+}
+.card-brand {
+  color: #f634b6;
+}
+
+.brands-list {
+  display: flex;
+  justify-content: center;
+  opacity: 1;
+  column-gap: 2vw;
+  padding-top: 12vh;
+  list-style: none;
+  cursor: pointer;
+  color: #fb96f4;
+}
+
+.brands-list li:hover {
+  color: #ca29f3;
+  transition: 0.5s;
+}
+
+.li-active {
+  color: #ca29f3;
+}
+.spinner {
+  padding: 10vh;
+  color: #f248e7;
+}
+.goup {
+  position: fixed;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  bottom: 20%;
+  left: 96%;
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  font-size: 28px;
+  background-color: #f25ce8;
+}
+.goup a {
+  color: #ffdffd;
+}
+.brand-des {
+  width: 70%;
+  margin: auto auto;
+  color: #f634b6;
+}

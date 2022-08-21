@@ -1,0 +1,20 @@
+.home {
+  height: fit-content;
+  padding: 9vh 0;
+}
+
+.home-title {
+  font-weight: bold;
+  font-size: 1.6vw;
+  color: blueviolet;
+}
+
+.home-description{
+    width: 70%;
+    height: 14vh;
+    margin: auto auto;
+
+}
+img {
+    border-radius: 1rem;
+  }

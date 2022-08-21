@@ -1,0 +1,42 @@
+main {
+  height: 100%;
+}
+
+.product-description {
+  width: 50%;
+  height:215px;
+  padding-top: 11vh;
+  margin: auto auto;
+  font-size: 1.v5;
+  color: rgb(219, 63, 247);
+}
+
+.product-card {
+  display: flex;
+  flex-direction: column;
+  row-gap: 2vh;
+}
+.product {
+  padding: 5vh 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  row-gap: 2vh;
+}
+
+.card {
+  width: 25%;
+  padding-bottom: 4vh;
+}
+.spinner {
+  color: #f13ee5 !important;
+  margin: 25vh auto;
+}
+.button {
+  background-color: #ed58e3;
+  border: none;
+}
+.button:hover {
+  background-color: rgb(171, 94, 243);
+ 
+}

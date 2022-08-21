@@ -1,0 +1,56 @@
+.App {
+  height: fit-content;
+  text-align: center;
+  font-family: "Righteous", cursive;
+  color: rgb(193, 136, 215);
+  background-color: #fff1f7;
+  user-select: none;
+}
+
+.nav {
+  position: fixed;
+  top: 0;
+  z-index: 3;
+  width: 100%;
+  margin: 0 auto;
+  padding: 0.5rem;
+  display: flex;
+  column-gap: 5vw;
+  justify-content: center;
+  background-color: #ddd;
+  font-size: 1.2vw;
+  overflow: hidden;
+  background-clip: text;
+  -webkit-background-clip: text;
+  color: white;
+  background: rgb(0, 199, 236);
+  background: linear-gradient(
+    196deg,
+    rgba(0, 139, 236, 1) 0%,
+    rgba(230, 6, 236, 1) 45%,
+    rgba(6, 192, 236, 1) 91%
+  );
+  background-size: 200%;
+  animation: move 6s alternate infinite linear;
+}
+@keyframes move {
+  from {
+    background-position-x: 0;
+  }
+  to {
+    background-position-x: 100%;
+  }
+}
+.nav-link {
+  color: white !important;
+  text-decoration: none;
+  font-style: italic;
+}
+.nav-link:hover {
+  color: rgb(207, 170, 253) !important;
+  transition: 0.8s;
+}
+.home-title {
+  font-weight: bold;
+  font-size: 1.6vw;
+}
