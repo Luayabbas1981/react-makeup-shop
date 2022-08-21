@@ -1,5 +1,5 @@
 .home {
-  height: fit-content;
+  height: 100vh;
   padding: 9vh 0;
 }
 
@@ -10,11 +10,16 @@
 }
 
 .home-description{
-    width: 80%;
-    height: 14vh;
-    margin: auto auto;
+  font-size: 1vw;
+    width: 90%;
+    height:20%;
+    margin: 0  auto 2vh auto;
+   
+    
 
 }
 img {
+  width: 20%;
+  height: 55vh;
     border-radius: 1rem;
   }
