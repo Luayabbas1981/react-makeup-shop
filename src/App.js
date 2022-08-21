@@ -31,6 +31,8 @@ function App() {
           </div>
 
           <Routes>
+           
+            <Route path={"/react-makeup-shop"} element={<Home />} />
             <Route path={"/"} element={<Home />} />
             <Route path={"/products"} element={<Products />} />
             <Route path={"/products/:id"} element={<ProductDetails />} />
