@@ -1,14 +1,14 @@
 {
   "files": {
-    "main.css": "/react-makeup-shop/static/css/main.589a92bb.css",
+    "main.css": "/react-makeup-shop/static/css/main.b41587de.css",
     "main.js": "/react-makeup-shop/static/js/main.4184228f.js",
     "static/media/lips.png": "/react-makeup-shop/static/media/lips.2400c02ac4b46322b915.png",
     "index.html": "/react-makeup-shop/index.html",
-    "main.589a92bb.css.map": "/react-makeup-shop/static/css/main.589a92bb.css.map",
+    "main.b41587de.css.map": "/react-makeup-shop/static/css/main.b41587de.css.map",
     "main.4184228f.js.map": "/react-makeup-shop/static/js/main.4184228f.js.map"
   },
   "entrypoints": [
-    "static/css/main.589a92bb.css",
+    "static/css/main.b41587de.css",
     "static/js/main.4184228f.js"
   ]
 }
