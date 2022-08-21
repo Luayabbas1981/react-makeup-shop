@@ -5,9 +5,8 @@ main {
 .product-description {
   width: 95%;
   height:130px;
-  padding-top: 10vh;
-  
-  margin: 6vh auto;
+  padding-top: 10vh; 
+  margin: auto auto 15vh auto;
   font-size: 1.2vw;
   color: rgb(219, 63, 247);
 }
