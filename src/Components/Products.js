@@ -73,7 +73,7 @@ function Products() {
           </article>
           <article className="brand-des">
             {brandName === "l'oreal" &&
-              "L'Oréal S.A. (French pronunciation: ​[lɔʁeal]) is a French personal care company headquartered in Clichy, Hauts-de-Seine with a registered office in Paris."}
+              "L'Oréal S.A. is a French personal care company headquartered in Clichy, Hauts-de-Seine with a registered office in Paris."}
           </article>
           <div className="Products">
             {data
