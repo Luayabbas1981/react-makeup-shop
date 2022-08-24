@@ -58,23 +58,26 @@ function Products() {
               l'oreal
             </li>
           </ul>
-
+          
           <article className="brand-des">
-            {brandName === "nyx" &&
+           
+            {brandName === "nyx" && loading &&
               "NYX Professional Makeup is an American cosmetics company that is a subsidiary of L'Oréal. The company was founded in Los Angeles by Toni Ko in 1999. It was named after Nyx, the Greek goddess of the night. NYX Professional Makeup is certified and acknowledged by PETA as a cruelty-free brand,"}
           </article>
           <article className="brand-des">
-            {brandName === "maybelline" &&
+            {brandName === "maybelline" && loading &&
               "Maybelline New York (formerly The Maybelline Company and Mabelline and Co.[1]), trading as Maybelline, is an American multinational cosmetics, skin care, fragrance, and personal care company, based in New York City. It was founded in Chicago in 1914, and has been a subsidiary of French cosmetics company L'Oréal since 1996."}
           </article>
           <article className="brand-des">
-            {brandName === "covergirl" &&
+            {brandName === "covergirl" && loading &&
               "CoverGirl is an American cosmetics brand founded in Maryland, United States, by the Noxzema Chemical Company."}
           </article>
           <article className="brand-des">
-            {brandName === "l'oreal" &&
+            {brandName === "l'oreal" && loading &&
               "L'Oréal S.A. is a French personal care company headquartered in Clichy, Hauts-de-Seine with a registered office in Paris."}
-          </article>
+          </article> 
+
+          
           <div className="Products">
             {data
               .map((item, index) => {

@@ -1,4 +1,5 @@
 import "./App.css";
+import React,{useEffect} from "react"
 import "bootstrap/dist/css/bootstrap.min.css";
 import {
   BrowserRouter as Router,
@@ -12,6 +13,10 @@ import ProductDetails from "./Components/ProductDetails";
 import About from "./Components/About";
 
 function App() {
+
+  useEffect(()=>{
+    document.body.style.backgroundColor="#fff1f7"
+  },[])
   return (
     <Router>
       <>

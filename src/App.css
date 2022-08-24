@@ -2,9 +2,9 @@
   height: fit-content;
   text-align: center;
   font-family: "Righteous", cursive;
+  user-select: none;
   color: rgb(193, 136, 215);
   background-color: #fff1f7;
-  user-select: none;
 }
 
 .nav {
