@@ -27,7 +27,7 @@ function App() {
             </NavLink>
             <div className="produts-brands">
               <NavLink className="nav-link" to="/products">
-                Products
+                Brands
               </NavLink>
             </div>
             <NavLink className="nav-link" to="/about">
