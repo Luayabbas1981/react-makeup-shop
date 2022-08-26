@@ -54,9 +54,8 @@
   font-weight: bold;
   font-size: 1.6vw;
 }
-@media (max-width:767px){
+@media (max-width: 767px) {
   .nav-link div {
-    font-size: 3.5vw ;
-    transform: translateX(1.7);               
+    font-size: 3.5vw;
   }
 }
