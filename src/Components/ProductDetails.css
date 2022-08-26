@@ -49,6 +49,7 @@ main {
 }
 @media (max-width: 767px) {
   .product-description {
+    height: fit-content;
     padding-top: 10vh;
     margin-bottom: 3vh;
     font-size: 3vw;
