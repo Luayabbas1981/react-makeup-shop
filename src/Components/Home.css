@@ -23,3 +23,20 @@ img {
   height: 55vh;
     border-radius: 1rem;
   }
+
+  @media (max-width:767px){
+    .home-title {
+    
+      font-size: 5vw;
+     
+    }
+    .home-description{
+      font-size: 2vw;
+    
+    }
+    img {
+      width: 60%;
+      height: 45vh;
+   
+      }
+  }

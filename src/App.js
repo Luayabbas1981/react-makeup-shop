@@ -23,15 +23,16 @@ function App() {
         <div className="App">
           <div className="nav">
             <NavLink className="nav-link" to="/">
-              Home
+              <div> Home</div>
+             
             </NavLink>
             <div className="produts-brands">
               <NavLink className="nav-link" to="/products">
-                Brands
+              <div> Brands</div>
               </NavLink>
             </div>
             <NavLink className="nav-link" to="/about">
-              About
+            <div>About</div>
             </NavLink>
           </div>
 

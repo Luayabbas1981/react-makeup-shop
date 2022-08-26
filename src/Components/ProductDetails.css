@@ -4,8 +4,8 @@ main {
 
 .product-description {
   width: 95%;
-  height:130px;
-  padding-top: 10vh; 
+  height: 130px;
+  padding-top: 10vh;
   margin: auto auto 15vh auto;
   font-size: 1.2vw;
   color: rgb(202, 113, 243);
@@ -15,9 +15,10 @@ main {
   display: flex;
   flex-direction: column;
   row-gap: 2vh;
+  border-bottom-left-radius: 3.5rem;
+  border-bottom-right-radius: 3.5rem;
 }
 .product {
- 
   display: flex;
   padding-bottom: 8vh;
   flex-direction: column;
@@ -39,11 +40,21 @@ main {
 }
 .button:hover {
   background-color: rgb(171, 94, 243);
- 
 }
-.card-title{
-  font-size: 1vw;
+.card-title {
+  font-size: 1vw !important;
 }
-.card-text{
+.card-text {
   font-size: 1.3vw;
+}
+@media (max-width: 767px) {
+  .product-description {
+    padding-top: 10vh;
+    margin-bottom: 3vh;
+    font-size: 3vw;
+  }
+  .card-title {
+    font-size: 4.5vw !important;
+  }
+  
 }

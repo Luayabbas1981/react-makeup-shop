@@ -1,19 +1,28 @@
 .about{
-    height: 100vh;
-    display: flex;
-   flex-direction: column;
-    align-items: center;
-    padding: 30vh;
+    padding: 30vh 0;
 }
 
 .about-description{
     width: 80%;
-    padding: 30vh auto;
+
     font-size: 1vw;
+    margin: 0 auto;
 }
 
 .copyright{
     position: absolute;
+    transform: translate(-50%,-50%);
     bottom: 10%;
-    left: 45%;
+    left: 50%;
+}
+@media (max-width:767px){
+    .about-description{
+       
+        width: 80%;
+        font-size: 2vw;
+    }
+    .copyright{
+       font-size: 1.7vw;
+       bottom: 30%;
+    }
 }
