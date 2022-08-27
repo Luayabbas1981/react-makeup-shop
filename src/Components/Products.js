@@ -40,7 +40,7 @@ function Products() {
               nyx
             </li>
             <li
-              className={brandName === "maybelline" ? "li-active" : ""}
+              className={brandName === "milani" ? "li-active" : ""}
               onClick={brandNameHandler}
             >
             milani
