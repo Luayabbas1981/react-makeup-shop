@@ -43,7 +43,7 @@ function Products() {
               className={brandName === "maybelline" ? "li-active" : ""}
               onClick={brandNameHandler}
             >
-              maybelline
+            milani
             </li>
             <li
               className={brandName === "covergirl" ? "li-active" : ""}
@@ -65,9 +65,11 @@ function Products() {
               "NYX Professional Makeup is an American cosmetics company that is a subsidiary of L'Oréal. The company was founded in Los Angeles by Toni Ko in 1999. It was named after Nyx, the Greek goddess of the night. NYX Professional Makeup is certified and acknowledged by PETA as a cruelty-free brand,"}
           </article>
           <article className="brand-des">
-            {brandName === "maybelline" &&
+            {brandName === "milani" &&
               loading &&
-              "Maybelline New York (formerly The Maybelline Company and Mabelline and Co.[1]), trading as Maybelline, is an American multinational cosmetics, skin care, fragrance, and personal care company, based in New York City. It was founded in Chicago in 1914, and has been a subsidiary of French cosmetics company L'Oréal since 1996."}
+             " Brand launched in 2002 and is family-owned and operated.The line can be purchased at major retailers and pharmacies like Walmart, Kmart, CVS and Walgreens. "
+
+              }
           </article>
           <article className="brand-des">
             {brandName === "covergirl" &&
