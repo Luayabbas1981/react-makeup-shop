@@ -116,7 +116,7 @@ function Products() {
                   )
                 );
               })
-              .reverse()}
+              }
           </div>
           <div className="goup">
             <a href="#">
