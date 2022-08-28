@@ -6,7 +6,7 @@
   row-gap: 4vh; */
   align-items: center;
   display: grid;
-  grid-template-columns: repeat(4,25%);
+  grid-template-columns: repeat(5,20%);
  row-gap: 4vh;
  
 }
