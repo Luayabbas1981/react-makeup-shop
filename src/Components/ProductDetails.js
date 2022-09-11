@@ -24,7 +24,7 @@ function ProductDetails() {
   return (
     <main>
       {product.description ? (
-        <article className="product-description">{product.description}</article>
+        <article className="product-description">{product.description.slice(0,200)}</article>
       ) : (
         <article className="product-description">
           No description avalible
