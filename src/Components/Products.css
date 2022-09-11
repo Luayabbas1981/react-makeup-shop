@@ -49,12 +49,12 @@
 .brands-list {
   display: flex;
   justify-content: center;
-  opacity: 1;
   column-gap: 2vw;
   padding-top: 12vh;
   list-style: none;
   cursor: pointer;
   color: #fb96f4;
+  font-size: 1.2vw;
 }
 
 .brands-list li:hover {
@@ -89,6 +89,7 @@
   width: 70%;
   margin: auto auto;
   color: #f634b6;
+  font-size: 1.3vw;
 }
 @media (max-width: 767px) {
   .Products {
