@@ -4,7 +4,6 @@
 
 .about-description{
     width: 80%;
-
     font-size: 1vw;
     margin: 0 auto;
 }
@@ -14,6 +13,7 @@
     transform: translate(-50%,-50%);
     bottom: 10%;
     left: 50%;
+    font-size: .7vw;
 }
 @media (max-width:767px){
     .about-description{
