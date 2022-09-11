@@ -43,7 +43,7 @@ function Products() {
               className={brandName === "milani" ? "li-active" : ""}
               onClick={brandNameHandler}
             >
-            milani
+              milani
             </li>
             <li
               className={brandName === "covergirl" ? "li-active" : ""}
@@ -67,9 +67,9 @@ function Products() {
           <article className="brand-des">
             {brandName === "milani" &&
               loading &&
-             " Brand launched in 2002 and is family-owned and operated.The line can be purchased at major retailers and pharmacies like Walmart, Kmart, CVS and Walgreens. "
+              " Brand launched in 2002 and is family-owned and operated.The line can be purchased at major retailers and pharmacies like Walmart, Kmart, CVS and Walgreens. "
 
-              }
+            }
           </article>
           <article className="brand-des">
             {brandName === "covergirl" &&
@@ -92,10 +92,10 @@ function Products() {
                       <Link className="link" to={`/products/${item.id}`}>
                         <Card
                           className="card-style"
-                        
+
                         >
                           <Card.Img className="img-style"
-                          style={{width:"100%"}}
+                            style={{ width: "100%" }}
                             src={item.image_link}
                             alt="No photo available"
                           />
@@ -116,7 +116,7 @@ function Products() {
                   )
                 );
               })
-              }
+            }
           </div>
           <div className="goup">
             <a href="#">
@@ -126,7 +126,7 @@ function Products() {
         </>
       ) : (
         <div className="spinner">
-          <Spinner animation="border" />
+          <Spinner animation="border" size="4" />
         </div>
       )}
     </>

@@ -52,7 +52,7 @@
   list-style: none;
   cursor: pointer;
   color: #fb96f4;
-  font-size: 1.1vw;
+  font-size: 1vw;
 }
 
 .brands-list li:hover {
@@ -66,6 +66,7 @@
 .spinner {
   padding: 10vh;
   color: #f248e7;
+  width: 5vw;
 }
 .goup {
   position: fixed;
@@ -87,7 +88,7 @@
   width: 70%;
   margin: auto auto;
   color: #f634b6;
-  font-size: 1.2vw;
+  font-size: 1.1vw;
 }
 @media (max-width: 767px) {
   .Products {
