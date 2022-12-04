@@ -27,7 +27,9 @@ function Products() {
     setData(apiData);
     setLoading(true);
   };
+  console.log(data)
 
+ 
   return (
     <>
       {loading ? (

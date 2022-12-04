@@ -8,6 +8,7 @@ function ProductDetails() {
   const navigate = useNavigate();
   const [product, setProduct] = useState({});
   const [loading, setLoading] = useState(false);
+  const [colors,setColors]= useState([])
 
   useEffect(() => {
     const getProductData = async () => {
@@ -21,6 +22,15 @@ function ProductDetails() {
     getProductData();
   }, [id]);
 
+    useEffect(()=>{
+    
+    setColors(product.product_colors)
+      
+    },[product])
+
+    console.log("colors",colors)
+    console.log("product",product)
+   
   return (
     <main>
       {product.description ? (
@@ -62,12 +72,25 @@ function ProductDetails() {
           <Button className="button" onClick={() => navigate(-1)}>
             Back
           </Button>
+
         </div>
       ) : (
         <div className="spinner">
           <Spinner animation="grow" />
         </div>
       )}
+      
+      {colors? 
+      <>
+        <div className="product-colors-container">
+          <div>Product colors</div>
+      {colors.map((el)=>{
+        return(
+          <div className="product-colors" style={{backgroundColor:el.hex_value
+
+          }}></div>
+        )
+      })}</div></>:""}
     </main>
   );
 }
